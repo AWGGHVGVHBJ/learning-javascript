@@ -57,7 +57,9 @@
 /* TASK #5
 	Create a new variable called nameCopy and assign it to the myName variable 
 	that you created earlier.  Notice that if you change the value assigned to 
-	myName above, this variable's value also changes.
+	myName above, this variable's value also changes. 
+
+	
 */
 
 // your code goes here
