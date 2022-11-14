@@ -15,7 +15,7 @@ const output = document.getElementById("output-container");
 
 // We can write a single line of text by setting the innerText property
 // of the output variable.
-output.innerText = "I am the first thing written to the output container. ";
+output.innerText = "We are the first thing written to the output container. ";
 
 // If we were to write anything to innerText again, it would replace anything
 // we had previously written. We can avoid this by "appending" to innerText
@@ -23,7 +23,7 @@ output.innerText = "I am the first thing written to the output container. ";
 // We can append more values to the innerText property by using += instead
 // of =.  This says, "take the existing innerText content, and add this new
 // stuff to the end".
-output.innerText += "I am the second appended to the first on the same line. ";
+output.innerText += "They are the second appended to the first on the same line. ";
 
 // If we want to add content, but make it appear on a separate line, we need to
 // add an "escaped control character".  These are characters preceded by a
@@ -57,10 +57,25 @@ let soda = "Root Beer";
 output.innerText += `${x} bottles of ${soda} on the wall, ${x} bottles of ${soda}\n`;
 output.innerText += `Take one down, pass it around...\n`;
 
-x = 499;
+x = 587;
 output.innerText += `${x} bottles of ${soda}!\n\n`;
 
 // You can even write out emojis!  You can see a complete list here: https://www.alt-codes.net/
-output.innerText += "I Love JavaScript! 😍";
+output.innerText += "What is  JavaScript! 😍";
 
-// Feel free to change any of this code and see what happens!
+// Feel free to change any of this code and see what happens!  
+
+let b = "bad mood"; 
+
+let g = "good mood"; 
+
+let d = "Dan"; 
+
+let dan = "person"   
+
+
+
+
+
+canvas?.insertAdjacentHTML  
+

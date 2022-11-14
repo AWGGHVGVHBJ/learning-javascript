@@ -8,7 +8,7 @@ let colSize = 80;
 let rowSize = 40;
 let gridSize = 4;
 let size = canvas.width/gridSize;
-function drawSquare(x, y, color, size = 25) {
+function drawSquare(x, y, color, size = 10) {
 	let square = new Path2D();
 	context.fillStyle = color; 
 
