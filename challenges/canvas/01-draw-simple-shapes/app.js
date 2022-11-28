@@ -52,3 +52,12 @@ const context = canvas.getContext("2d");
 
 	Feel free to play with these new methods and see what they do!
 */
+context.fillStyle = "red" 
+//@ts-check
+/** @type {HTMLCanvasElement} */ //@ts-ignore
+let canvas = document.getElementById("canvas-1");
+canvas.width = 100;
+canvas.height = 100;
+
+/** @type {CanvasRenderingContext2D} */ //@ts-ignore
+let context = canvas.getContext("2d"); 
