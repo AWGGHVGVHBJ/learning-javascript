@@ -1,8 +1,8 @@
 //@ts-check
 /** @type {HTMLCanvasElement} */ //@ts-ignore
 let canvas = document.getElementById("canvas-1");
-canvas.width = 100;
-canvas.height = 100;
+canvas.width = 200;
+canvas.height = 200;
 
 /** @type {CanvasRenderingContext2D} */ //@ts-ignore
 let context = canvas.getContext("2d");
@@ -17,7 +17,7 @@ class ClickBox {
 		this.refreshRate = 500;
 		this.lastRefresh = 0;
 		this.colors = colors;
-		this.color = "red";
+		this.color = "blue";
 
 		this.setColor();
 	}
@@ -72,7 +72,7 @@ class ClickBox {
 let squares = [];
 let gridSize = 4;
 let size = canvas.width / gridSize;
-let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+let colors = [  "blue", "white", "violet"];
 
 let winningColor = "";
 
@@ -91,15 +91,15 @@ canvas.addEventListener("click", (e) => {
 	squares.forEach((b) => {
 		if (b.amIClicked(e.offsetX, e.offsetY)) {
 			b.isClicked = true;
-			if (winningColor == "") {
+			if (winningColor == "blue") {
 				winningColor = b.color;
 			}
 		}
 	});
 });
 
-let currentTime = 0;
-let score = 0;
+let currentTime = 10;
+let score = 5;
 
 function drawLoop(timestamp) {
 	let elapsedTime = timestamp - currentTime;

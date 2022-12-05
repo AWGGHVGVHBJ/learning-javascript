@@ -57,7 +57,7 @@ context.fillStyle = "red"
 /** @type {HTMLCanvasElement} */ //@ts-ignore
 let canvas = document.getElementById("canvas-1");
 canvas.width = 100;
-canvas.height = 100;
+canvas.height = 100; 
 
 /** @type {CanvasRenderingContext2D} */ //@ts-ignore
 let context = canvas.getContext("2d"); 
